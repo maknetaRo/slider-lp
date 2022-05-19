@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.main {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.swiper {
+  max-width: 1300px;
+  width: 100%;
+  
+}
+.hero-swiper {
+  height: 500px;
+}
+.hero-slide {
+  background-color: aquamarine;
+}
+
+.swiper-pagination-bullet {
+  background: transparent;
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  opacity: 1;
+
+}
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: white;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+
+} 
+
+
+.brand-logos {
+  max-width: 1300px;
+  width: 100%;
+  height: 180px;
+  margin-block: 30px;
+  border-top: 1px dotted rgba(33, 33, 33, 0.7);
+  border-bottom: 1px dotted rgba(33, 33, 33, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper.mySwiper {
+  padding:0;
+  margin: 0;
+}
+
+
+.mySwiper > .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 150px ;
+  height: 80px;
+  object-fit: cover;
+}
+.mySwiper .logo { 
+  background-color: gainsboro;
+  height: 80px;
+  min-width: 150px ;
+  text-align: center;
+  font-size: 18px;
+  margin-inline: 8px !important;
+}
+
